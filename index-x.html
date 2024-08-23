@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Scroll Snap - Tailwind CSS for Devs in a Hurry</title>
+  </head>
+  <body class="bg-zinc-800 h-screen flex justify-center items-center">
+    <div class="absolute h-full w-1 bg-white z-10"></div>
+    <div
+      class="z-10 absolute bottom-6 left-2/4 ml-1 bg-slate-800 text-white rounded px-4 py-2"
+    >
+      Snap Point
+    </div>
+
+    <div
+      class="relative h-full flex gap-6 overflow-x-auto pb-14 snap-x snap-mandatory"
+    >
+      <div class="w-40 snap-center shrink-0">
+        <div class="shrink-0 w-48"></div>
+      </div>
+      <div class="w-40 snap-center shrink-0">
+        <div class="shrink-0 w-48"></div>
+      </div>
+      <div class="w-40 snap-center shrink-0">
+        <div class="shrink-0 w-48"></div>
+      </div>
+
+      <figure class="w-96 snap-center shrink-0">
+        <img
+          class="w-full h-full object-cover rounded-md"
+          src="fruit.jpg"
+          alt=""
+        />
+      </figure>
+
+      <figure class="w-96 snap-center shrink-0">
+        <img
+          class="w-full h-full object-cover rounded-md"
+          src="vegetables.jpg"
+          alt=""
+        />
+      </figure>
+
+      <figure class="w-96 snap-center shrink-0">
+        <img
+          class="w-full h-full object-cover rounded-md"
+          src="steak.jpg"
+          alt=""
+        />
+      </figure>
+
+      <figure class="w-96 snap-center shrink-0">
+        <img
+          class="w-full h-full object-cover rounded-md"
+          src="healthy-food.jpg"
+          alt=""
+        />
+      </figure>
+
+      <figure class="w-96 snap-center shrink-0">
+        <img
+          class="w-full h-full object-cover rounded-md"
+          src="exotic-fruits.jpg"
+          alt=""
+        />
+      </figure>
+
+      <figure class="w-96 snap-center shrink-0">
+        <img
+          class="w-full h-full object-cover rounded-md"
+          src="brain-food.jpg"
+          alt=""
+        />
+      </figure>
+
+      <div class="w-40 snap-center shrink-0">
+        <div class="shrink-0 w-48"></div>
+      </div>
+      <div class="w-40 snap-center shrink-0">
+        <div class="shrink-0 w-48"></div>
+      </div>
+      <div class="w-40 snap-center shrink-0">
+        <div class="shrink-0 w-48"></div>
+      </div>
+    </div>
+  </body>
+</html>
